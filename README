@@ -1,1 +1,14 @@
 
+mkdir -p projects/facebook projects/google/oriserve projects/meta/oriserve projects/oracle: 
+This line creates the projects directory and its subdirectories. 
+The -p option stands for "parents" and creates the directory hierarchy if it doesn't exist.
+
+
+
+find projects -type d -name oriserve -exec touch {}/test.txt \;: 
+This line finds all directories named "oriserve" within the projects directory and creates a file named "test.txt"
+in each of them.
+
+
+to run
+make it executable with chmod +x create_files.sh, and then run it with ./create_files.sh.
