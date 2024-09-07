@@ -1,4 +1,4 @@
-
+Problem solution of create_files.sh file 
 mkdir -p projects/facebook projects/google/oriserve projects/meta/oriserve projects/oracle: 
 This line creates the projects directory and its subdirectories. 
 The -p option stands for "parents" and creates the directory hierarchy if it doesn't exist.
